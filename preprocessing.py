@@ -5,8 +5,8 @@ from pathlib import Path
 import pandas as pd
 import seaborn as sns
 import matplotlib.pyplot as plt
-from tools.io_f import read_data_file, get_path_info
-from tools.compute_f import split_ts_seq, compute_steps, compute_headings, \
+from io_f import read_data_file, get_path_info
+from compute_f import split_ts_seq, compute_steps, compute_headings, \
     compute_stride_length, compute_step_heading, compute_rel_positions, correct_positions
 
 floor_map = {"B3": -3, "B2": -2, "B1": -1, "F1": 0, "F2": 1, "F3": 2, "F4": 3, "F5": 4, "F6": 5, "F7": 6, "F8": 7,
